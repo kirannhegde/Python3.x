@@ -1,0 +1,26 @@
+Test project /home/schubert/tmp/testProject/build
+    Start 11: foo2
+    Start 14: foo5
+    Start 16: foo7
+    Start 15: foo6
+    Start 17: foo8
+    Start 13: foo4
+    Start 18: foo9
+    Start 12: foo3
+1/9 Test #12: foo3 .............................   Passed    2.71 sec
+    Start 10: foo1
+3/9 Test #16: foo7 .............................***Failed    3.02 sec
++ sleep 3
++ exit 1
+
+4/9 Test #13: foo4 .............................   Passed    3.12 sec
+5/9 Test #11: foo2 .............................***Failed    3.13 sec
++ sleep 3
++ exit 1
+
+6/9 Test #14: foo5 .............................***Failed    3.13 sec
++ sleep 3
++ exit 1
+
+7/9 Test #10: foo1 .............................   Passed    1.01 sec
+9/9 Test #15: foo6 .............................   Passed   10.01 sec
